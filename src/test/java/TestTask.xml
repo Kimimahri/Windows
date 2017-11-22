@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test">
+    <test name="Test">
+        <parameter name="url" value="http://way2automation.com/way2auto_jquery/frames-and-windows.php"/>
+        <parameter name="timeout" value="10"/>
+        <parameter name="driverPath" value="src/resources/chromedriver.exe"/>
+        <parameter name="username" value="Remaru"/>
+        <parameter name="password" value="Test1!"/>
+        <classes>
+            <class name="TestTask"/>
+        </classes>
+    </test>
+</suite>
